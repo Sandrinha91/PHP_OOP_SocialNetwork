@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* Error succes */
+.err{
+    color: rgb(211, 6, 47);
+}
+
+/* Cover section */
+
+.cover{
+    background: url("../images/cover.jpg") no-repeat fixed center/cover;
+    height: 80vh;
+    filter: blur(6px);
+}
+
+.overlay{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay h2{
+    color: #fff;
+    font-size: 5em;
+    text-shadow: 2px 2px 2px #fff;
+}
+
+.sub-cover{
+    height: 20vh;
+    background-color: rgba(243, 241, 246, 0.774);
+}
+
+.flex-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    width: 200px;
+    border: none;
+    background-color: rgb(160, 251, 221);
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 40px;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    color: aquamarine;
+    background-color: #fff;
+    border: 1px solid aquamarine;
+    box-shadow: 7px 7px 5px aquamarine;
+    z-index: 2;
+    
+}
+
+/* LOGIN */
+
+.register {
+    width: 100%;
+    margin: auto;
+    background-color: rgba(253, 253, 253, 0.842);
+    min-height: 150px;
+    position: absolute;
+    top: 30%;
+    z-index: 2;
+    display: block;
+    }
+
+.login{
+        width: 100%;
+        margin: auto;
+        background-color: rgba(253, 253, 253, 0.842);
+        min-height: 150px;
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        display: block;
+        }
+
+/* FORM LOGIN */
+
+.center{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+form{
+    padding: 10px 0;
+    margin-top: 15px;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+label{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 3px;
+    color: rgb(31, 12, 63);
+    margin-right: 5px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+.col1{
+    justify-self: end;
+}
+
+.col2{
+    justify-self: start;
+}
+
+.x, .x1{
+    z-index: 3;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    cursor: pointer;
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+}
+
+

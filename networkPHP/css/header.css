@@ -1,0 +1,91 @@
+.helo{
+    width: 100%;
+    background-color: var(--white-color);
+    color: var(--white-color);
+    text-align: center;
+    font-style: italic;
+}
+
+.helo p{
+    color: var(--purple-color);
+    padding: 3px 0;
+    font-size: 14px;
+    margin: 0;
+}
+/* SUBHElO */
+.subhelo{
+    background: url("../img/bc-naslovna1.jpg") no-repeat fixed center/cover;
+    background-color: var(--light-grey);
+    display: flex;
+    justify-content: center;
+}
+
+.subhelo h3{
+    color: var(--purple-color);
+    margin: 0 0 0 10px;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px var(--tirquise-color);
+    padding: 5px 0;
+    font-family: 'Pacifico', cursive;
+}
+
+
+/* MENU */
+.wrap{
+    background-color: var(--purple-color);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    background-color: var(--purple-color);
+    border-radius: 10px;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;  
+}
+
+.menu li a{
+    display: inline-block;
+    list-style: none;
+    color: var(--white-color);
+    padding: 7px;
+    text-decoration:none;
+    margin: 0;
+    font-size: 14px;
+}
+
+.menu {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.menu li a:hover{
+    color: var(--purple-color);
+    background-color: var(--white-color);
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: var(--purple-color);
+    color:#fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 5px 0;
+}
